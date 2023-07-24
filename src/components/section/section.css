@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+.section_container{
+  display: flex;
+  padding: 30px;
+  margin-top: 2rem;
+}
+
+.firstsection {
+ margin-top: 3.5rem;
+  
+}
+.firstsection h1{
+  width: 100%;
+  font-family: 'Raleway', sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+}
+.firstsection p{
+  width: 90%;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13px;
+}
+.secondsection img{
+  width: 550px;
+  
+}
+.firstsection input{
+    padding: 7px;
+    width: 200px;
+    outline: none;
+    
+}
+.firstsection button{
+  padding: 8px;
+  width: 150px;
+  margin-left: 15px;
+  background-color: blue;
+  border: none ;
+  color: white;
+  cursor: pointer;
+
+}

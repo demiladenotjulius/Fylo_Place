@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
+:root {
+    --color:  hsl(170, 45%, 43%);
+    --Very: hsl(243, 87%, 12%);
+    --desaturated: hsl(238, 22%, 44%);
+--BrightBlue: hsl(224, 93%, 58%);
+--ModerateCyan: hsl(170, 45%, 43%);
+--LightGrayishBlue: hsl(240, 75%, 98%);
+--LightGray: hsl(0, 0%, 75%);
+
+}
+.secondary{
+    padding: 50px;
+    display: flex;
+    background-color: var(--desaturated);
+    
+}
+.forthesec{
+    display: flex;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+
+   
+}
+.firstSec h1{
+    font-family: 'Raleway', sans-serif; 
+    font-size: 20px;
+    color: white;
+}
+.firstSec p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    width: 50%;
+    color: white;
+}
+.secondSec input{
+    padding: 6px;
+    width: 110%;
+    margin-bottom: 5px;
+    outline: none;
+
+}
+.secondSec button{
+    padding: 6px;
+    width: 60%;
+    background-color: var(--BrightBlue) ;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    height: 35px;
+
+}
+.secondSec{
+    margin: 5px;
+    
+}

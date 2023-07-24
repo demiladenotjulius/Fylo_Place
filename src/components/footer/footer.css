@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
+:root {
+    --color:  hsl(170, 45%, 43%);
+    --Very: hsl(243, 87%, 12%);
+    --desaturated: hsl(238, 22%, 44%);
+--BrightBlue: hsl(224, 93%, 58%);
+--ModerateCyan: hsl(170, 45%, 43%);
+--LightGrayishBlue: hsl(240, 75%, 98%);
+--LightGray: hsl(0, 0%, 75%);
+--bodyfont: 'Open Sans', sans-serif;
+--headerfont: 'Raleway', sans-serif;
+
+}
+.mainFooter{
+    background-color: var(--Very);
+    padding: 5rem;
+    display: flex;
+    justify-content: space-between;
+}
+.footer1 p{
+    color: white;
+    font-family: var(--bodyfont);
+    font-size: 12px;
+}
+.firsticon{
+    display: flex;
+    gap: 25px;
+    text-align: center;
+    align-items: center;
+    margin-bottom: -10px;
+    
+}
+.secondicon{
+    display: flex;
+    gap: 20px;
+    text-align: center;
+    align-items: center;
+    
+}
+
+.footer2{
+    color: white;
+    font-family: var(--bodyfont);
+    font-size: 14px;
+    margin-top: 3rem;
+}
+.footer3{
+    color: white;
+    font-family: var(--bodyfont);
+    font-size: 14px;
+    margin-top: 3rem;
+}
+.footer4{
+    display: flex;
+   
+    color: white;
+    text-align: center;
+    align-items: center;
+    gap: 10px;
+}
+.foricons{
+    background-color: var(--Very);
+    border: 1px solid white;
+    border-radius: 12px;
+    padding: 5px;
+}

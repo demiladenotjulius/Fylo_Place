@@ -1,0 +1,16 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Raleway&display=swap');
+
+.header{
+    color: red;
+    display: flex;
+    padding: 25px;
+    justify-content: space-between;
+  }
+  ul{
+    color: black;
+    list-style-type: none;
+    display: flex;
+    gap: 35px;
+    font-family: 'Raleway', sans-serif;
+  }

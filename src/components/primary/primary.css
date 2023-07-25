@@ -5,10 +5,8 @@
 
 #img3{
    position: absolute;
-   bottom: 17rem;
    right: 10px;
-   
-   
+   top: -90px;
 }
 
 #img6{
@@ -17,6 +15,7 @@
 .primaryPath{
     display: flex;
     padding: 30px;
+    position: relative;
 }
 .firstPry1 h1{
     font-family: 'Raleway', sans-serif;

@@ -9,8 +9,11 @@ import img6 from './illustration-2.png'
 
 function Primary() {
     return(
+        
         <div className="primaryPath">
+            <div className="imagge">
             <img id='img3' src={img3} alt="" />
+            </div>
             <div className="firstPry">
                 <div className="firstPry1">
                    <h1>Stay productive, wherever you are</h1>

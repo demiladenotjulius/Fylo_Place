@@ -6,6 +6,7 @@ import "./footer.css";
 import {  FaFacebookF} from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
 
 
 function Footer() {
@@ -47,6 +48,7 @@ function Footer() {
       <FaFacebookF size="1rem" className="foricons" />
       <FaTwitter size="1rem" className="foricons" />
       <FaInstagram size="1rem" className="foricons"  />
+      <FaLinkedin className="foricons" />
      
       </div>
       
